@@ -1,0 +1,7 @@
+# nam4wpan #
+n -t * -s 0  -x 25 -y 25 -Z 0 -z 2  -v circle -c green
+n -t * -s 1  -x 10 -y 25 -Z 0 -z 2  -v circle -c green
+V -t * -v 1.0a5 -a 0
+W -t * -x 50 -y 50
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
